@@ -1,4 +1,3 @@
-
 # data
 groups = 3   # we need to finally divide them into 3 groups
 
@@ -58,5 +57,4 @@ for i=1:number_cows
         print(cow_id[i]," ", getvalue(cow_group[i,1]), " ", getvalue(cow_group[i,2])," ", getvalue(cow_group[i,3]),"\n") 
     end
 end
-
-
+println("Objective value = ", getobjectivevalue(m))
